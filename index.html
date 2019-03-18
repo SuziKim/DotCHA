@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<title>DotCHA Demo</title>
+<meta charset="utf-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="library/three.min.js"></script>
+<script src="library/dat.gui.min.js"></script>
+<script src="library/TrackballControls.js"></script>
+<script src="dotcha/pattern_consolas-10.js"></script>
+<script src="dotcha/graph.js"></script>
+
+<link rel="stylesheet" href="demo.css" />
+</head>
+
+
+<body style="margin: 0;">
+<div>
+	<ul class="demolist">
+	<li id="demo1"><a href="javascript:showDemo(0)">[demo#1]</a></li>
+	<li id="demo2"><a href="javascript:showDemo(1)">[demo#2]</a></li>
+	<li id="demo3"><a href="javascript:showDemo(2)">[demo#3]</a></li>
+	<li id="demo4"><a href="javascript:showDemo(3)">[demo#4]</a></li>
+	<li id="demo5"><a href="javascript:showDemo(4)">[demo#5]</a></li>
+	<li id="demo6"><a href="javascript:showDemo(5)">[demo#6]</a></li>
+	</ul>
+<br>
+</div>
+
+<div class="explanation">
+<p>* This is a demo page of <i>[DotCHA: A 3D Text-based Scatter-type CAPTCHA]</i>, submitted to ICWE 2019.</p>
+<p>* If you need, you may drag and rotate the model to identify each letter.</p>
+<br>
+</div>
+
+<div id="threejscanvas">
+</div>
+
+<div class="dotchaInfo">
+<p id="desc_answer"></p>
+<p id="desc_parameters"></p>
+</div>
+
+<script src="dotcha/dotcha.js"></script>
+<script>showDemo(0)</script>
+</body>
+</html>
