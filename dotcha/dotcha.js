@@ -222,9 +222,17 @@ function makeUnitSphereAt(pSubSphere, pX, pY, pZ, pXDepth, pYDepth, pZDepth, pIn
 		dis2 = Math.sqrt(Math.pow(60-kx, 2) + Math.pow(10-ky, 2));
 	}
 
-	var tR = (37 - 236) / (dis1 + dis2) * dis1 + 236;
-	var tG = (170 - 0) / (dis1 + dis2) * dis1 + 0;
-	var tB = ( 225 - 140) / (dis1 + dis2) * dis1 + 140;
+	var baseR_s = 199;
+	var baseG_s = 255;
+	var baseB_s = 0;
+
+	var baseR_e = 0;
+	var baseG_e = 81;
+	var baseB_e = 153;
+
+	var tR = (baseR_e - baseR_s) / (dis1 + dis2) * dis1 + baseR_s;
+	var tG = (baseG_e - baseG_s) / (dis1 + dis2) * dis1 + baseG_s;
+	var tB = ( baseB_e - baseB_s) / (dis1 + dis2) * dis1 + baseB_s;
 	var tColor = new THREE.Color(tR/256, tG/256, tB/256);
 
 	var geometry = new THREE.SphereGeometry(gParameters.sphereSize);
