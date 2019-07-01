@@ -5,6 +5,11 @@ We introduce a new type of 3D text-based CAPTCHA, called DotCHA, which relies on
 [Suzi Kim](https://www.kimsuzi.com/cv) and [Sunghee Choi](https://sites.google.com/view/kaist-gclab/members/professor)  
 @ Geomtric Computing Lab., School of Computing, KAIST  
 presented at [ICWE 2019](https://icwe2019.webengineering.org)
+(_Distinguished Paper Award_)
 
 ## Citation
 Kim S., Choi S. (2019) DotCHA: A 3D Text-Based Scatter-Type CAPTCHA. In: Bakaev M., Frasincar F., Ko IY. (eds) Web Engineering. ICWE 2019. Lecture Notes in Computer Science, vol 11496. Springer, Cham
+
+## Demo
+http://suzikim.github.io/DotCHA
+
