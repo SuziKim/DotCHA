@@ -8,7 +8,40 @@ presented at [ICWE 2019](https://icwe2019.webengineering.org)
 (_Distinguished Paper Award_)
 
 ## Citation
-Kim S., Choi S. (2019) DotCHA: A 3D Text-Based Scatter-Type CAPTCHA. In: Bakaev M., Frasincar F., Ko IY. (eds) Web Engineering. ICWE 2019. Lecture Notes in Computer Science, vol 11496. Springer, Cham
+- Kim S., & Choi S. (2019) DotCHA: A 3D Text-Based Scatter-Type CAPTCHA. In: Bakaev M., Frasincar F., Ko IY. (eds) Web Engineering. ICWE 2019. Lecture Notes in Computer Science, vol 11496. Springer, Cham
+
+```
+@inproceedings{Kim2019DotCHA,
+  author    = {Suzi Kim and
+               Sunghee Choi},
+  title     = {DotCHA: {A} 3D Text-Based Scatter-Type {CAPTCHA}},
+  booktitle = {Web Engineering - 19th International Conference, {ICWE} 2019, Daejeon,
+               South Korea, June 11-14, 2019, Proceedings},
+  pages     = {238--252},
+  year      = {2019},
+  crossref  = {DBLP:conf/icwe/2019},
+  url       = {https://doi.org/10.1007/978-3-030-19274-7\_18},
+  doi       = {10.1007/978-3-030-19274-7\_18},
+}
+```
+
+- Kim S., & Choi S. (2020) DotCHA: An Interactive 3D Text-based CAPTCHA. Journal of Web Engineering, 18(8), 837–864, doi:10.13052/jwe1540-9589.1884
+```
+@article{Kim2020DotCHA,
+  author    = {Suzi Kim and
+               Sunghee Choi},
+  title     = {DotCHA: {An} Interactive 3D Text-based {CAPTCHA}},
+  journal = {Journal of Web Engineering},
+  year    = {2020},
+  month   = jan,
+  volume  = {18},
+  number  = {8},
+  pages   = {837--864},
+  issn    = {1540-9589},
+  url     = {https://doi.org/10.13052/jwe1540-9589.1884},
+  doi     = {10.13052/jwe1540-9589.1884},
+}
+```
 
 ## Demo
 http://suzikim.github.io/DotCHA
